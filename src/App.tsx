@@ -8,6 +8,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Apps />} />
 
+
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </BrowserRouter>
